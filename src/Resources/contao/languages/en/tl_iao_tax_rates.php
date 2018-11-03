@@ -18,25 +18,25 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['name'][0]              = 'Name des Steuersatzes';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['name'][1]              = 'Geben Sie einen eindeutigen Namen ein.';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['value'][0]				= 'Wert (%)';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['value'][1]             = 'z.B. 19 pder 7 oder 0';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['sorting'][0]				= 'Sortierung';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['sorting'][1]             = 'Um die Sortierung anzupassen, tragen Sie hier eine Zahl ein.';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['default_value'] = array('Standart-Wert','Dieser Wert wird beim neuanlegen als Vorauswahl angezeigt.');
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['name'][0]              = 'Name of tax rate';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['name'][1]              = 'Please enter an unique name.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['value'][0]				= 'Value (%)';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['value'][1]             = 'ie. 19 or 7 or 0';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['sorting'][0]				= 'Sorting';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['sorting'][1]             = 'To adjusted the sorting enter a number here.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['default_value'] = array('Default value','This value will be used as predefined value on creating a new entry.');
 
 /**
  * Buttons
  */
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['new'][0]                          = 'Neuer Steuersatz';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['new'][1]                          = 'Ein neuer Steuersatz erstellen.';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['edit'][0]                         = 'Steuersatz bearbeiten';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['edit'][1]                         = 'Steuersatz ID %s bearbeiten.';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['copy'][0]                         = 'Steuersatz duplizieren';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['copy'][1]                         = 'Steuersatz ID %s duplizieren.';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['delete'][0]                       = 'Steuersatz löschen';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['delete'][1]                       = 'Steuersatz ID %s löschen.';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['show'][0]                         = 'Steuersatzsdetails anzeigen';
-$GLOBALS['TL_LANG']['tl_iao_tax_rates']['show'][1]                         = 'Details für Steuersatz ID %s anzeigen.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['new'][0]                          = 'New tax rate';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['new'][1]                          = 'Add a new tax rate.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['edit'][0]                         = 'Edit tax rate';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['edit'][1]                         = 'Edit tax rate ID %s.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['copy'][0]                         = 'Duplicate tax rate';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['copy'][1]                         = 'Duplicate tax rate ID %s.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['delete'][0]                       = 'Delete tax rate';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['delete'][1]                       = 'Delete tax rate ID %s.';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['show'][0]                         = 'Show details of tax rate';
+$GLOBALS['TL_LANG']['tl_iao_tax_rates']['show'][1]                         = 'Show details of tax rate ID %s.';
 
