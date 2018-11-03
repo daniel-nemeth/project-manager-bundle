@@ -16,7 +16,7 @@
  */
 $GLOBALS['TL_LANG']['tl_module']['fe_iao_template'][0] = 'Template';
 $GLOBALS['TL_LANG']['tl_module']['fe_iao_template'][1] = '';
-$GLOBALS['TL_LANG']['tl_module']['fe_iao_numberOfItems'][0] = 'Anzahl der Einträge';
-$GLOBALS['TL_LANG']['tl_module']['fe_iao_numberOfItems'][1] = '0 = alle Einträge';
-$GLOBALS['TL_LANG']['tl_module']['status'][0] = 'Status der angezeigten Einträge';
-$GLOBALS['TL_LANG']['tl_module']['status'][1] = 'Wenn alle angezeigt werden soll dann keinen "-" Status zuweisen.';
+$GLOBALS['TL_LANG']['tl_module']['fe_iao_numberOfItems'][0] = 'Amount of entries';
+$GLOBALS['TL_LANG']['tl_module']['fe_iao_numberOfItems'][1] = '0 = all entries';
+$GLOBALS['TL_LANG']['tl_module']['status'][0] = 'Status of shown entries';
+$GLOBALS['TL_LANG']['tl_module']['status'][1] = 'If all entries should be shown do not assign an "-" status.';
