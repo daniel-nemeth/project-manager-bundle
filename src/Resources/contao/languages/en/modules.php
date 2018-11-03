@@ -18,46 +18,46 @@
 /**
  * Back end modules
  */
- $GLOBALS['TL_LANG']['MOD']['iao']  = 'Projekt-Verwaltung';
- $GLOBALS['TL_LANG']['MOD']['iao_projects']	= array('Projekte', 'Verwalten Sie hier Ihre Projekte.');
- $GLOBALS['TL_LANG']['MOD']['iao_offer']	= array('alle Angebote', 'Verwalten Sie hier Ihre Angebote.');
- $GLOBALS['TL_LANG']['MOD']['iao_invoice']	= array('alle Rechnungen', 'Verwalten Sie hier Ihre Rechnungen.');
- $GLOBALS['TL_LANG']['MOD']['iao_reminder']	= array('alle Rückstände', 'Verwalten Sie hier Ihre Rückstände.');
- $GLOBALS['TL_LANG']['MOD']['iao_credit']	= array('alle Gutschriften', 'Verwalten Sie hier Ihre Gutschriften.');
- $GLOBALS['TL_LANG']['MOD']['iao_agreements']	= array('Verträge', 'Verwalten Sie hier Ihre Service-Verträge und ale zeitlich wiederkehrenden Rechnungsstellungen.');
- $GLOBALS['TL_LANG']['MOD']['iao_templates']	= array('Vorlagen (Text)', 'Verwalten Sie die Vorlagen für die Standarttexte vor und nach den Posten von Rechnungen, Angebote und Gutschriften.');
- $GLOBALS['TL_LANG']['MOD']['iao_templates_items']	= array('Vorlagen (Posten)', 'Verwalten Sie die Vorlagen für die Posten von Rechnungen, Angebote und Gutschriften.');
- $GLOBALS['TL_LANG']['MOD']['iao_customer']	= array('Kunden', 'Verwalten Sie ihre Kundendaten.');
- $GLOBALS['TL_LANG']['MOD']['iao_settings']	= array('Einstellungen', 'Verwalten Sie die allgemeinen Einstellungen zu den Angebote, Rechnungen und Gutschriften.');
- $GLOBALS['TL_LANG']['MOD']['iao_setup']	= array('Einstellungen', 'Verwalten Sie alle Einstellungen.');
+ $GLOBALS['TL_LANG']['MOD']['iao']  = 'Project-Management';
+ $GLOBALS['TL_LANG']['MOD']['iao_projects']	= array('Projects', 'Manage your projects here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_offer']	= array('all offers', 'Manage your offers here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_invoice']	= array('all invoices', 'Manage your invoices here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_reminder']	= array('all arrears', 'Manage your arrears here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_credit']	= array('all credit vouchers', 'Manage your credit vouchers here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_agreements']	= array('Agreements', 'Manage your service agreements and all chronological recurring invoice settings here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_templates']	= array('Templates (Text)', 'Manage templates for the default text before and after items of invoices, offers and credit vouchers.');
+ $GLOBALS['TL_LANG']['MOD']['iao_templates_items']	= array('Templates (Items)', 'Manage templates for items of invoices, offers and credit vouchers.');
+ $GLOBALS['TL_LANG']['MOD']['iao_customer']	= array('Customers', 'Manage your customers here.');
+ $GLOBALS['TL_LANG']['MOD']['iao_settings']	= array('Settings', 'Manage your common settings for offers, invoices and credit vouchers.');
+ $GLOBALS['TL_LANG']['MOD']['iao_setup']	= array('Setup', 'Manage all setups here.');
 
 /**
  * settings Modules
  */
-$GLOBALS['TL_LANG']['PMB']['config_module']             = 'Einstellungen der Projekt Verwaltung (Version: %s)';
+$GLOBALS['TL_LANG']['PMB']['config_module']             = 'Configuration for project management (Version: %s)';
 
-$GLOBALS['TL_LANG']['PMB']['config']                       = 'Einstellungen';
-$GLOBALS['TL_LANG']['PMB']['iao_settings'][0]              = 'Konfigurationen';
-$GLOBALS['TL_LANG']['PMB']['iao_settings'][1]              = 'Verwalten Sie die grundlegenden Einstellungen und weisen eine Stadard-Einstellung zu. Sie können mehrere Konfiguration anlegen und so z.B. Angebote,Rechnungen etc. für verschiedene Firmen mit den jeweiligen PDF-Vorlagen verwalten.';
-$GLOBALS['TL_LANG']['PMB']['iao_tax_rates'][0]             = 'Steuersätze';
-$GLOBALS['TL_LANG']['PMB']['iao_tax_rates'][1]             = 'Steuersätze definieren die Gebühren welche zum Preis hinzugerechnet werden sollen.';
-$GLOBALS['TL_LANG']['PMB']['iao_item_units'][0]            = 'Einheiten';
-$GLOBALS['TL_LANG']['PMB']['iao_item_units'][1]            = 'Einheiten für die Menge der Posten verwalten. z.B. Stunden, Tage, Pauschale.';
+$GLOBALS['TL_LANG']['PMB']['config']                       = 'Configuration';
+$GLOBALS['TL_LANG']['PMB']['iao_settings'][0]              = 'Configurations';
+$GLOBALS['TL_LANG']['PMB']['iao_settings'][1]              = 'Manage and assign the default configuration. You can add multiple configurations to manage various PDF templates for offers, invoices and more for different companies.';
+$GLOBALS['TL_LANG']['PMB']['iao_tax_rates'][0]             = 'Tax rates';
+$GLOBALS['TL_LANG']['PMB']['iao_tax_rates'][1]             = 'Tax rates are defining additional fees which should be added to the price.';
+$GLOBALS['TL_LANG']['PMB']['iao_item_units'][0]            = 'Units';
+$GLOBALS['TL_LANG']['PMB']['iao_item_units'][1]            = 'Manage units for items (As example hours, days, flat charge).';
 
-$GLOBALS['TL_LANG']['PMB']['templates']                    = 'Vorlagen';
-$GLOBALS['TL_LANG']['PMB']['iao_templates'][0]             = 'Vorlagen (Rechnungen, Angebote,Gutscheine)';
-$GLOBALS['TL_LANG']['PMB']['iao_templates'][1]             = 'Damit Sie schnell immer wiederkehrende Texte in Rechnungen, Angebote oder Gutscheine befüllen können, haben Sie hier die Möglichkeit diese als Vorlage hier zu verwalten.';
-$GLOBALS['TL_LANG']['PMB']['iao_templates_items'][0]       = 'Posten-Vorlagen (Rechnungen, Angebote,Gutscheine)';
-$GLOBALS['TL_LANG']['PMB']['iao_templates_items'][1]       = 'Hier erstellen Sie die Vorlagen für die einzelnen Posten einer Rechnung, Angebotes oder Gutschrift';
+$GLOBALS['TL_LANG']['PMB']['templates']                    = 'Templates';
+$GLOBALS['TL_LANG']['PMB']['iao_templates'][0]             = 'Templates (Invoices, Offers, Credit vouchers)';
+$GLOBALS['TL_LANG']['PMB']['iao_templates'][1]             = 'To fill out reccuring texts within invoices, offers or credit vouchers faster here you can manage them as templates.';
+$GLOBALS['TL_LANG']['PMB']['iao_templates_items'][0]       = 'Item templates (Invoices, Offers, Credit vouchers)';
+$GLOBALS['TL_LANG']['PMB']['iao_templates_items'][1]       = 'Here you create templates for the items of a invoice, offer or credit voucher.';
 
 
 /**
  * Front end modules
  */
-$GLOBALS['TL_LANG']['FMD']['iao_fe']      = 'Angebote &amp; Rechnungen';
-$GLOBALS['TL_LANG']['FMD']['fe_iao_invoice'] = array('Liste der Rechnungen', 'Eine Liste aller Rechnungen zu dem angemeldeten Mitglied.');
-$GLOBALS['TL_LANG']['FMD']['fe_iao_offer'] = array('Liste der Angebote','Eine Liste aller Angebote zu dem angemeldeten Mitglied.');
-$GLOBALS['TL_LANG']['FMD']['fe_iao_credit'] = array('Liste der Gutschriften','Eine Liste aller Gutschriften zu dem angemeldeten Mitglied.');
-$GLOBALS['TL_LANG']['FMD']['fe_iao_reminder'] = array('Liste der Mahnungen','Eine Liste aller Mahnungen zu dem angemeldeten Mitglied.');
-$GLOBALS['TL_LANG']['FMD']['fe_iao_agreements'] = array('Liste der Verträge','Eine Liste aller Verträge zu dem angemeldeten Mitglied.');
-$GLOBALS['TL_LANG']['FMD']['fe_iao_public_project_list'] = array('öffentliche Projekt-Liste','Eine Liste aller öffentlich zugänglichen Projekte.');
+$GLOBALS['TL_LANG']['FMD']['iao_fe']      = 'Offers &amp; Invoices';
+$GLOBALS['TL_LANG']['FMD']['fe_iao_invoice'] = array('List of invoices', 'A list of all invoices for the logged in member.');
+$GLOBALS['TL_LANG']['FMD']['fe_iao_offer'] = array('List of offers','A list of all offers for the logged in member.');
+$GLOBALS['TL_LANG']['FMD']['fe_iao_credit'] = array('List of credit vouchers','A list of all credit vouchers for the logged in member.');
+$GLOBALS['TL_LANG']['FMD']['fe_iao_reminder'] = array('List of reminders','A list of all reminders for the logged in member.');
+$GLOBALS['TL_LANG']['FMD']['fe_iao_agreements'] = array('List of all agreements','A list of all agreements for the logged in member.');
+$GLOBALS['TL_LANG']['FMD']['fe_iao_public_project_list'] = array('Public project list','A list of all public accessable projects.');
