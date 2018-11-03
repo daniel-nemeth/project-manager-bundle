@@ -15,43 +15,43 @@
  * permanent text corrections which are update-safe.
  */
 
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['posten_template'] =	array('Template','Posten-Template');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['headline'] =	array('Bezeichnung','Posten-Bezeichnung');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['headline_to_pdf'] = ['Bezeichnung in PDF aufnehmen'];
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['type'] =	array('Inhaltstyp','neuer Eintrag oder PDF-Seitentrenner');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['posten_template'] =	array('Template','Items-Template');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['headline'] =	array('Title','Item title');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['headline_to_pdf'] = ['Add title into PDF'];
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['type'] =	array('Content type','New entry or PDF page break');
 $GLOBALS['TL_LANG']['tl_iao_credit_items']['alias'] =	array('Alias','');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['author'] =	array('Posten-Ersteller','');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['text'] =	array('Beschreibung','hier wird die Beschreibung zu dem Posten eingegeben.');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['price'] =	array('Preis','geben Sie hier den Preis an.');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['vat_incl'] =	array('Preis-Angabe mit oder ohne MwSt.','(brutto / netto)');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['count'] =	array('Anzahl','die Anzahl wird mit dem Preis multipliziert');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['amountStr'] =	array('Art der Anzahl','');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['vat'] =	array('MwSt.','Art der MwSt. zu diesem Posten.');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['author'] =	array('Item autor','');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['text'] =	array('Description','Enter an description for the item.');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['price'] =	array('Price','Enter an price.');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['vat_incl'] =	array('Price with or without VAT','(gross / net)');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['count'] =	array('Amount','The amount will be multiplicated with the price.');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['amountStr'] =	array('Type of amount','');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['vat'] =	array('VAT','Type of VAT for this item.');
 
 /**
  * Global operation
  */
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['pdf'] =	array('PDF generieren','eine PDF zu dieser Gutschrift generieren');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['new'] =	array('Neuer Posten','Ein neuen Posten anlegen');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['pdf'] =	array('Generate PDF','Generate a PDF for this credit voucher');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['new'] =	array('New item','Add a new item');
 
 /**
  * Operation
  */
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['edit'] =	array('Posten bearbeiten','Element ID %s bearbeiten');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['copy'] =	array('Posten duplizieren','Element ID %s duplizieren');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['delete'] =	array('Posten löschen','Element ID %s löschen');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['deleteConfirm'] = 'Soll der Posten ID %s wirklich gelöscht werden?!';
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['show'] =	array('Details anzeigen','Details des Postens ID %s anzeigen');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['postentemplate'] =	array('diesen Posten als Vorlage speichern','Posten ID %s als Vorlage speichern');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['edit'] =	array('Edit item','Edit item ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['copy'] =	array('Duplicate item','Duplicate item ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['delete'] =	array('Delete item','Delete item ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['deleteConfirm'] = 'Do you really want to delete the itemn ID %s?!';
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['show'] =	array('Show details','Show details of item ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['postentemplate'] =	array('Save this item as template','Save itemn ID %s as template');
 
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['tstamp'] =	array('Letzte Änderung','');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['published'] =	array('veröffentlicht','');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['tstamp'] =	array('Last change','');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['published'] =	array('published','');
 
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['templates_legend'] = 'Template-Auswahl';
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['title_legend'] = 'Grundeinstellungen';
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['item_legend'] = 'Posten-Daten';
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['publish_legend'] = 'Veröffentlichung';
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['type_legend'] = 'Elementtyp-Einstellung';
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['templates_legend'] = 'Template selection';
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['title_legend'] = 'Common settings';
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['item_legend'] = 'Item data';
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['publish_legend'] = 'Publishing';
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['type_legend'] = 'Element type settings';
 
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['vat_incl_percents'] =	array(1 => 'netto', 2 => 'brutto');
-$GLOBALS['TL_LANG']['tl_iao_credit_items']['type_options'] =	array('item'=>'Eintrag','devider'=>'PDF-Trenner');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['vat_incl_percents'] =	array(1 => 'net', 2 => 'gross');
+$GLOBALS['TL_LANG']['tl_iao_credit_items']['type_options'] =	array('item'=>'Item','devider'=>'PDF-Break');
