@@ -18,15 +18,15 @@
 /**
  * Fields
  */
-$GLOBALS['TL_LANG']['tl_member']['myid'] = array('Kunden-ID','Falls Datensätze importiert werden, müssen evtl. die Verbindungen zu Rechnnungen,Angebote oder Gutscheinen eine Verknüpfung zum Kundendatensatz haben.');
+$GLOBALS['TL_LANG']['tl_member']['myid'] = array('Customer ID','In case of imported data records, the records must have a connection to invoices, offers or credit vouchers of the customer record.');
 
 /**
  * Legends
  */
-$GLOBALS['TL_LANG']['tl_member']['import_settings'] = 'Import-Einstellungen';
-$GLOBALS['TL_LANG']['tl_member']['new']    = array('Neuer Kunde', 'Einen neuen Kunden anlegen');
-$GLOBALS['TL_LANG']['tl_member']['title']    = array('Titel', 'z.B. Dr. oder Prof.');
-$GLOBALS['TL_LANG']['tl_member']['text_generate'] = array('Adresstext aus Kundendaten generieren','VORSICHT! Der evtl. bestehende Adresstext wird gelöscht.');
-$GLOBALS['TL_LANG']['tl_member']['address_text'] = array('Anschrift-Adresstext','Adresse die in die PDF-Datei geschrieben wird.');
+$GLOBALS['TL_LANG']['tl_member']['import_settings'] = 'Import settings';
+$GLOBALS['TL_LANG']['tl_member']['new']    = array('New customer', 'Add a new customer');
+$GLOBALS['TL_LANG']['tl_member']['title']    = array('Academic title', 'ie. Dr. or Prof.');
+$GLOBALS['TL_LANG']['tl_member']['text_generate'] = array('Generate address text from customer data','ATTENTION! The exisiting address data may be deleted.');
+$GLOBALS['TL_LANG']['tl_member']['address_text'] = array('Address data','Address which will be written into the PDF file.');
 
-$GLOBALS['TL_LANG']['tl_member']['custom_addresstext_legend'] = 'angepasster Adresstext';
+$GLOBALS['TL_LANG']['tl_member']['custom_addresstext_legend'] = 'Adjusted address text';
