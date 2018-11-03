@@ -16,83 +16,83 @@
  */
 
 
-$GLOBALS['TL_LANG']['tl_iao_agreements']['setting_id']	=	array('Konfiguration','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['pid']	=	array('Projekt','Optional können sie hier das entsprechende Projekt auswählen.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['title'] = array('Bezeichnung','Bezeichnung des Elementes');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['agreement_pdf_file'] = array('Vertrag','Vertrag als PDF-Datei zuweisen.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['member'] = array('Kunde','Adresse aus gespeicherten Kunden in nachstehendes Feld befüllen');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['text_generate'] = array('Adresstext aus Kundendaten generieren','VORSICHT! Der evtl. bestehende Adresstext wird gelöscht.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['address_text'] = array('Mahnungs-Adresse','Adresse die in der Mahnungs-PDF-Datei geschrieben wird.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['published'] = array('veröffentlicht','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['status'] = array('Status dieses Vertrages','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['periode'] = array('Periode','Geben Sie die Periode in Form von strtotime ein z.B. +1 year = 1 Jahr weiter, +2 months = weitere 2 Monate');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['agreement_date'] = array('Vertrag seit','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['beginn_date'] = array('Zyklusbeginn','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['end_date'] = array('Zyklusende','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['terminated_date'] = array('gekündigt zum','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['new_generate'] = array('den neuen Zyklus setzen','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['sendEmail'] = array('Email-Erinnerung einrichten','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['remind_before'] = array('erinnern vor Ablauf des Vertrags-Zyklus','Die Angaben müssen im strtotime-Format (z.B. -3 weeks) gesetzt werden.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['email_from'] = array('Email-Sender','Die Absendeadresse sollte hier zur Domain gehören, sonst kann es sein das der Server diese Email nicht sendet.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['email_to'] = array('Email-Empfänger','Die Emailadresse, zur der die Erinnerung das eine Vertragsperiode endet, gesendet werden soll.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['email_subject'] = array('Email-Betreff','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['email_text'] = array('Email-Text','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['before_template'] = array('Text vor den Posten','Eine Auswahl an Rechnungsvorlagen');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['after_template'] = array('Text nach den Posten','Eine Auswahl an Rechnungsvorlagen');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['posten_template'] = array('Posten-Template','Eine Auswahl an Rechnungsposten');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['notice'] = array('Notiz','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['price'] = array('Preis','Geben Sie hier den Preis an.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['vat_incl'] = array('Preis-Angabe mit oder ohne MwSt.','(brutto / netto)');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['count'] = array('Anzahl','Die Anzahl wird mit dem Preis multipliziert.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['amountStr'] = array('Art der Anzahl','');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['vat'] = array('MwSt.','Art der MwSt. zu diesem Posten.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['setting_id']	=	array('Configuration','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['pid']	=	array('Project','Optionally you can select your project.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['title'] = array('Title','Title of the element.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['agreement_pdf_file'] = array('Agreement','Assign agreement as PDF file.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['member'] = array('Customer','Fill in address from saved customer into the following field.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['text_generate'] = array('Generate address text from customer data','ATTENTION! The exisiting address data may be deleted.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['address_text'] = array('Reminder address','Address which is written into the reminder PDF file.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['published'] = array('published','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['status'] = array('Status of this agreement','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['periode'] = array('Period','Enter the period with a strototime format. As example: +1 year = 1 Year forward, +2 months = other 2 months');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['agreement_date'] = array('Afreement since','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['beginn_date'] = array('Begin of cycle','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['end_date'] = array('End of cycle','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['terminated_date'] = array('terminate at','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['new_generate'] = array('Set the new cycle','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['sendEmail'] = array('Set up Email-reminder','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['remind_before'] = array('Remind before end of agreement cycle','The value must be as strtotime format (ie. -3 weeks).');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['email_from'] = array('Email sender','The email address of sender should be within same domain, otherwise maybe the server won\'t send the email.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['email_to'] = array('Email recipient','The email address to which a reminder should be sent, before thre agrrement cycle ends.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['email_subject'] = array('Email subject','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['email_text'] = array('Email text','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['before_template'] = array('Text before items','A selection of invoice items');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['after_template'] = array('Text after items','A selection of invoice items');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['posten_template'] = array('Item templates','A selection of invoice items');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['notice'] = array('Notice','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['price'] = array('Price','Enter an price.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['vat_incl'] = array('Price with or without tax?','(gross / net)');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['count'] = array('Amount','The amount will be multiplied with the price.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['amountStr'] = array('Type of the amount','');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['vat'] = array('VAT','Type of VAT for this item.');
 
-$GLOBALS['TL_LANG']['tl_iao_agreements']['execute_date'] = array('Ausgeführt am','Dieses Angabe wird vom Finanzamt vorgeschrieben um die Vorsteuer zu ziehen.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['expiry_date'] = array('Begleichen bis','Das Datum nachdem die Mahnungsstufen anfangen.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['invoice_pdf_file'] = array('Mahnungsdatei','Wenn hier eine Datei angegeben wurde wird diese statt einer generierten ausgegeben. Unter normalen Umständen sollte dieses Feld leer bleiben. Es ist hauptsächlich für Importe gedacht.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['paid_on_date'] = array('Bezahlt am','Das Datum an dem die Zahlung auf dem Konto eingegangen ist.');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['invoice'] = array('Für den Servicevertrag die aktuelle Rechnung generieren.','Servicevertrag ID %s als Rechnung anlegen');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['toggle'] = 'Vertrag als aktiv/ nicht aktiv markieren';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['execute_date'] = array('Executed at','This value is mandatory by the finance office to get the input VAT.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['expiry_date'] = array('Payable till','The date from which the reminder steps are starting.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['invoice_pdf_file'] = array('Reminder file','If a file is selected, the file will be output instead of the generated. Under normal circumstances this field should be empty, it is primary used for imports only.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['paid_on_date'] = array('Paid at','The date the payment has been received at bank account.');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['invoice'] = array('Generate the service agreement for the current invoice.','Generate service agreement ID %s as invoice');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['toggle'] = 'Mark agreement as active / inactive';
 
 /**
 * Buttons
 */
-$GLOBALS['TL_LANG']['tl_iao_agreements']['new'] = array('Neuer Vertrag','Einen neuen Vertrag anlegen');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['edit'] = array('Vertrag bearbeiten','Vertrag ID %s bearbeiten');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['copy'] = array('Vertrag duplizieren','Vertrag ID %s duplizieren');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['delete'] = array('Vertrag löschen','Vertrag ID %s löschen');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['deleteConfirm'] = 'Soll die Vertrag ID %s wirklich gelöscht werden?!';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['show'] = array('Details anzeigen','Details der Vertrag ID %s anzeigen');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['new'] = array('New Agreement','Add a new agreement');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['edit'] = array('Edit agreement','Edit agrrement ID %s');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['copy'] = array('Duplicate agreement','Duplicate agreement ID %s');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['delete'] = array('Delete agreement','Delete agreement ID %s');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['deleteConfirm'] = 'Do you really want to delete agreement ID %s ?!';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['show'] = array('Show details','Show details for agreement ID %s');
 
 /**
  * Legend
  */
-$GLOBALS['TL_LANG']['tl_iao_agreements']['invoice_generate_legend']	=	'Einstellungen für die Genrierung der Rechnungen';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['agreement_legend']	=	'Vertrag-Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['settings_legend']	=	'Konfiguration-Zuweisung';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['title_legend'] = 'Titel Einstellung';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['address_legend'] = 'Adress-Angaben';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['status_legend'] = 'Status-Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['email_legend'] = 'Email-Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['other_legend'] = 'weitere Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['notice_legend'] = 'Notiz anlegen';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['invoice_generate_legend']	=	'Settings for generating an invoice';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['agreement_legend']	=	'Agreement settings';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['settings_legend']	=	'Configuration assignment';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['title_legend'] = 'Title settings';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['address_legend'] = 'Address data';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['status_legend'] = 'Status settings';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['email_legend'] = 'Email settings';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['other_legend'] = 'More settings';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['notice_legend'] = 'Add a note';
 
 /**
  * Select-fiels options
  */
-$GLOBALS['TL_LANG']['tl_iao_agreements']['status_options'] = array('1'=>'aktiv','2'=>'gekündigt');
-$GLOBALS['TL_LANG']['tl_iao_agreements']['vat_incl_percents'] = array(1 => 'netto', 2 => 'brutto');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['status_options'] = array('1'=>'active','2'=>'terminated');
+$GLOBALS['TL_LANG']['tl_iao_agreements']['vat_incl_percents'] = array(1 => 'net', 2 => 'gross');
 
 /**
 * Frontend-Templates
 */
-$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['title'] = 'Titel:';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['beginn_date'] = 'Zyklusbeginn:';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['end_date'] = 'Zyklusende:';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['price'] = 'Betrag:';
-$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['file'] = 'Vertrag (pdf):';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['title'] = 'Title:';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['beginn_date'] = 'Begin of cycle:';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['end_date'] = 'End of cycle:';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['price'] = 'Amount:';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['fe_table_head']['file'] = 'Agreement (pdf):';
 
 
 // Meldungen
-$GLOBALS['TL_LANG']['tl_iao_agreements']['no_entries_msg'] = 'Es sind keine Einträge für diesen Bereich vorhanden.';
+$GLOBALS['TL_LANG']['tl_iao_agreements']['no_entries_msg'] = 'There are no entries for this type available.';
 
