@@ -15,73 +15,73 @@
  * permanent text corrections which are update-safe.
  */
 
-$GLOBALS['TL_LANG']['tl_iao_credit']['setting_id']	=	array('Konfiguration','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['pid']	=	array('Projekt','das entsprechende Projekt auswählen.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['title']	=	array('Bezeichnung','Bezeichnung des Elementes');
+$GLOBALS['TL_LANG']['tl_iao_credit']['setting_id']	=	array('Configuration','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['pid']	=	array('Project','Select the corresponding project.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['title']	=	array('Title','Title of element');
 $GLOBALS['TL_LANG']['tl_iao_credit']['alias']	=	array('Alias','');
 
-$GLOBALS['TL_LANG']['tl_iao_credit']['member']	=	array('Kunde','Adresse aus gespeicherten Kunden in nachstehendes Feld befüllen');
-$GLOBALS['TL_LANG']['tl_iao_credit']['text_generate'] = array('Adresstext aus Kundendaten generieren','VORSICHT! Der evtl. bestehende Adresstext wird gelöscht.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['address_text']	=	array('Gutschrift-Adresse','Adresse die in der Gutschrift-PDF-Datei geschrieben wird.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['before_text']	=	array('Text vor den Posten','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['before_template']	=	array('Text-Template vor den Posten','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['after_text']	=	array('Text nach den Posten','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['after_template']	=	array('Text-Template nach den Posten','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['published']	=	array('veröffentlicht','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['status']	=	array('Status dieser Gutschrift','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['noVat']	=	array('keine MwSt. ausweisen','z.B. Gutschrift in nicht Bundesrepublik Deutschland');
-$GLOBALS['TL_LANG']['tl_iao_credit']['price_netto']	=	array('Gutschrift-Höhe (Netto)','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['price_brutto']	=	array('Gutschrift-Höhe (Brutto)','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['member']	=	array('Kunde','');
-$GLOBALS['TL_LANG']['tl_iao_credit']['notice']	=	array('Notiz','Diese Notizen werden ausschließlich im Backend verwendet.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['member']	=	array('Customer','Fill in address from saved customer into the following field.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['text_generate'] = array('Generate address text from customer data','ATTENTION! The exisiting address data may be deleted.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['address_text']	=	array('Credit voucher address','Address which is written into the credit coucher PDF file..');
+$GLOBALS['TL_LANG']['tl_iao_credit']['before_text']	=	array('Text before items','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['before_template']	=	array('Text-Template before the items','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['after_text']	=	array('Text after items','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['after_template']	=	array('Text-Template after the items','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['published']	=	array('published','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['status']	=	array('Status of the credit voucher','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['noVat']	=	array('Do not account VAT','As example credit voucher to other country then Germany');
+$GLOBALS['TL_LANG']['tl_iao_credit']['price_netto']	=	array('Credit voucher amount (Net)','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['price_brutto']	=	array('Credit voucher amount (Gross)','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['member']	=	array('Customer','');
+$GLOBALS['TL_LANG']['tl_iao_credit']['notice']	=	array('Notice','The notice will be used in backend only..');
 
-$GLOBALS['TL_LANG']['tl_iao_credit']['credit_date']	=	array('Gutschriftdatum','wenn es leer bleibt dann wird das aktuelle Datum eingetragen. Unter normalen Umständen sollte dieses Feld leer bleiben. Es ist hauptsächlich für Importe gedacht.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['credit_tstamp']	=	array('Gutschriftdatum als Timestamp','Wenn es leer bleibt dann wird der Timestamp vom Gutschriftdatum eingetragen. Unter normalen Umständen sollte dieses Feld leer bleiben. Es ist hauptsächlich für Importe gedacht.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['credit_id']	=	array('Gutschrift-ID','Dieses Feld wird hauptsächlich zum hochzählen der nächsten Gutschrift benötigt.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['credit_id_str']	=	array('Gutschrift-ID-Name','Dieses Feld wird für den PDF-Namen und direkt auf der Gutschrift ausgegeben.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['expiry_date']	=	array('Gültig bis','Diese Gutschrift ist bis zu diesem Datum gültig.');
-$GLOBALS['TL_LANG']['tl_iao_credit']['credit_pdf_file']	=	array('Gutschriftdatei','Wenn hier eine Datei angegeben wurde wird diese statt einer generierten ausgegeben. Unter normalen Umständen sollte dieses Feld leer bleiben. Es ist hauptsächlich für Importe gedacht.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['credit_date']	=	array('Date of credit voucher','If the field is empty the current date will be used. Under normal circumstances this field should be empty, it is primary used for imports only.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['credit_tstamp']	=	array('Date of credit voucher as timestamp','If the field is empty the cdate of the credit voucher will be used. Under normal circumstances this field should be empty, it is primary used for imports only.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['credit_id']	=	array('Credit voucher ID','Primary this field is used to count up the next credit voucher.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['credit_id_str']	=	array('Credit voucher ID - Title','This field is used for the PDF title and will be output directly on the credit voucher.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['expiry_date']	=	array('Valid till','The credit voucher is valid till this date.');
+$GLOBALS['TL_LANG']['tl_iao_credit']['credit_pdf_file']	=	array('Credit voucher file','If a file is selected, the file will be output instead of the generated. Under normal circumstances this field should be empty, it is primary used for imports only.');
 
-$GLOBALS['TL_LANG']['tl_iao_credit']['toggle']	=	'Gutschrift als akzeptiert/ nicht akzeptiert markieren';
-$GLOBALS['TL_LANG']['tl_iao_credit']['gender']['male']	=	'Herr';
-$GLOBALS['TL_LANG']['tl_iao_credit']['gender']['female']	=	'Frau';
+$GLOBALS['TL_LANG']['tl_iao_credit']['toggle']	=	'Mark credit voucher as accepted / not accepted';
+$GLOBALS['TL_LANG']['tl_iao_credit']['gender']['male']	=	'Mr';
+$GLOBALS['TL_LANG']['tl_iao_credit']['gender']['female']	=	'Ms';
 
 /**
  * Buttons
  */
-$GLOBALS['TL_LANG']['tl_iao_credit']['new']	=	array('Neue Gutschrift','Eine neue Gutschrift anlegen');
-$GLOBALS['TL_LANG']['tl_iao_credit']['edit']	=	array('Gutschrift bearbeiten','Gutschrift ID %s bearbeiten');
-$GLOBALS['TL_LANG']['tl_iao_credit']['copy']	=	array('Gutschrift duplizieren','Gutschrift ID %s duplizieren');
-$GLOBALS['TL_LANG']['tl_iao_credit']['delete']	=	array('Gutschrift löschen','Gutschrift ID %s löschen');
-$GLOBALS['TL_LANG']['tl_iao_credit']['deleteConfirm']	=	'Soll die Gutschrift ID %s wirklich gelöscht werden?!';
-$GLOBALS['TL_LANG']['tl_iao_credit']['show']	=	array('Details anzeigen','Details der Gutschrift ID %s anzeigen');
-$GLOBALS['TL_LANG']['tl_iao_credit']['pdf']	=	array('PDF generieren','eine PDF zu dieser Gutschrift generieren');
+$GLOBALS['TL_LANG']['tl_iao_credit']['new']	=	array('New credit voucher','Add a new credit voucher');
+$GLOBALS['TL_LANG']['tl_iao_credit']['edit']	=	array('Edit credit voucher','Edit credit voucher ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit']['copy']	=	array('Duplicate credit voucher','Duplicate credit voucher ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit']['delete']	=	array('Delete credit voucher','Delete credit voucher ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit']['deleteConfirm']	=	'Do you really want to delete the credit voucher ID %s?!';
+$GLOBALS['TL_LANG']['tl_iao_credit']['show']	=	array('Show details','Show detailf of credit voucher ID %s');
+$GLOBALS['TL_LANG']['tl_iao_credit']['pdf']	=	array('Generate PDF','Generate a PDF for this credit voucher');
 
 /**
  * Legends
  */
-$GLOBALS['TL_LANG']['tl_iao_credit']['settings_legend']	=	'Konfiguration-Zuweisung';
-$GLOBALS['TL_LANG']['tl_iao_credit']['credit_id_legend']	=	'Gutschrift-Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_credit']['address_legend']	=	'Adress-Angaben';
-$GLOBALS['TL_LANG']['tl_iao_credit']['text_legend']	=	'Gutschrift-Texte';
-$GLOBALS['TL_LANG']['tl_iao_credit']['extend_legend']	=	'weitere Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_credit']['status_legend']	=	'Status-Einstellungen';
-$GLOBALS['TL_LANG']['tl_iao_credit']['notice_legend']	=	'Notiz anlegen';
+$GLOBALS['TL_LANG']['tl_iao_credit']['settings_legend']	=	'Configuration assignment';
+$GLOBALS['TL_LANG']['tl_iao_credit']['credit_id_legend']	=	'Credit voucher settings';
+$GLOBALS['TL_LANG']['tl_iao_credit']['address_legend']	=	'Adress data';
+$GLOBALS['TL_LANG']['tl_iao_credit']['text_legend']	=	'Credit voucher text';
+$GLOBALS['TL_LANG']['tl_iao_credit']['extend_legend']	=	'More settings';
+$GLOBALS['TL_LANG']['tl_iao_credit']['status_legend']	=	'Status settings';
+$GLOBALS['TL_LANG']['tl_iao_credit']['notice_legend']	=	'Generate a notice';
 
 /**
  * Select-fiels options
  */
-$GLOBALS['TL_LANG']['tl_iao_credit']['status_options'] = array('1'=>'nicht angenommen','2'=>'angenommen');
+$GLOBALS['TL_LANG']['tl_iao_credit']['status_options'] = array('1'=>'not accepted','2'=>'accepted');
 
 /**
 * Frontend-Templates
 */
-$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['title'] = 'Titel/ Rechnungsnr.:';
-$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['date'] = 'erstellt am:';
-$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['price'] = 'Betrag:';
-$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['remaining'] = 'offen:';
+$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['title'] = 'Title / Invoice number:';
+$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['date'] = 'created at:';
+$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['price'] = 'Amount:';
+$GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['remaining'] = 'open:';
 $GLOBALS['TL_LANG']['tl_iao_credit']['fe_table_head']['file'] = 'PDF:';
 
 
 // Meldungen
-$GLOBALS['TL_LANG']['tl_iao_credit']['no_entries_msg'] = 'Es sind keine Einträge für diesen Bereich vorhanden.';
+$GLOBALS['TL_LANG']['tl_iao_credit']['no_entries_msg'] = 'There are no entries for this type available.';
